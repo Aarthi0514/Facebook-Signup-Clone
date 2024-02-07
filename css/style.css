@@ -1,0 +1,119 @@
+body,h1,p,h2{
+    margin: 0px;
+}
+.main-div{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px ;
+}
+#logo{
+    color: #0866ff;
+    font-size: 66px;
+    font-family: inherit;
+    padding: 20px 0px;
+}
+.sign-upform{
+    background-color: hwb(0 100% 0%);
+    width: 430px;
+    border-radius: 7px;
+}
+.form-heading{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px #92979f solid;
+}
+h2{
+    padding-bottom: 7px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+p{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+input,select{
+    padding: 10px;
+    border: 1px #92979f solid;
+    border-radius: 5px ;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.input-fields{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.half-width{
+    width: 48%;
+    display: flex;
+}
+.full-width{
+    width: 100%;
+    display: flex;
+}
+label{
+    font-size: 15px;
+    color: #606770;
+    padding-bottom: 10px;
+}
+.dob{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.quart-width{
+    display: flex;
+    width: 31%;
+}
+.ratio-btn{
+    padding: 8px;
+    border: 1px #92979f solid;
+    border-radius: 5px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio-label{
+    padding-bottom: 0;
+    font-size: 15px;
+}
+.radio-input{
+    margin: 0;
+    width: auto;
+}
+small{
+    padding-top: 10px;
+    font-size: 11.75px;
+    color: #777;
+}
+a{
+    text-decoration: none;
+}
+.signup-btn{
+    border: 0;
+    background-color:#00a400;
+    color:white;
+    padding: 8px 55px;
+    border-radius: 5px;
+    font-size: 18;
+    font-weight: 500;
+}
+.button{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.account-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
